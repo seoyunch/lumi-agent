@@ -715,7 +715,7 @@ app/
       git add .
       git commit -m "feat: 3강 완성 코드"
       git branch -M main
-      git remote add origin https://github.com/<내계정>/<repo이름>.git
+      git remote add origin https://github.com/seoyunch/lumi-agent.git
       git push -u origin main
       ```
     - [] GitHub Secrets 등록 
