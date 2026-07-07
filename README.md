@@ -708,8 +708,8 @@ app/
 
 ### TODO
 - [] GitHub 준비
-    - [] GitHub에서 새 repo 생성
-    - [] 3강 완성 코드를 main에 업로드
+    - [v] GitHub에서 새 repo 생성
+    - [v] 3강 완성 코드를 main에 업로드
       ```bash
       git init
       git add .
@@ -718,15 +718,15 @@ app/
       git remote add origin https://github.com/seoyunch/lumi-agent.git
       git push -u origin main
       ```
-    - [] GitHub Secrets 등록 
+    - [v] GitHub Secrets 등록 
         - repo → Settings → Secrets and variables → Actions → New repository secret
         - `UPSTAGE_API_KEY` / `SUPABASE_URL` / `SUPABASE_KEY` 3개 등록
 - [] CI 워크플로우 추가 (새 브랜치 → push → PR)
-    - [] 새 브랜치 생성 & 체크아웃
+    - [v] 새 브랜치 생성 & 체크아웃
       ```bash
       git checkout -b feat/ci
       ```
-    - [] `.github/workflows/ci.yml` 작성 
+    - [v] `.github/workflows/ci.yml` 작성 
     - [] 변경된 파일 git add, commit, push
       ```bash
       git add .github/workflows/ci.yml
